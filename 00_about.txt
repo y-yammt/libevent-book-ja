@@ -2,20 +2,27 @@ include::license.txt[]
 
 :language: C
 
-About this document
--------------------
+// About this document
+この文書について
+----------------
 
-This document will teach you how to use Libevent 2.0 (and later) to write fast
-portable asynchronous network IO programs in C.  We assume:
+// This document will teach you how to use Libevent 2.0 (and later) to write fast
+// portable asynchronous network IO programs in C.  We assume:
+この文章では、高速で移植性のある非同期ネットワーク入出力プログラムをC言語で書くために Libevent 2.0 (および、それ以降) を使う方法について説明します。
+本書を読むにあたっては、以下のことを想定しています。
 
-* That you already know C.
-* That you already know the basic C networking calls (socket(),
-  connect(), and so on).
+// * That you already know C.
+* すでにC言語を知っている。
+// * That you already know the basic C networking calls (socket(),
+//   connect(), and so on).
+* すでにC言語での基本的なネットワーク呼び出し(socket()やconnect()など)を知っている。
 
 
-A note on examples
-------------------
+// A note on examples
+例についての注意
+----------------
 
-The examples in this document should work all right on Linux, FreeBSD,
-OpenBSD, NetBSD, Mac OS X, Solaris, and Android. Some of the examples
-may not compile on Windows.
+// The examples in this document should work all right on Linux, FreeBSD,
+// OpenBSD, NetBSD, Mac OS X, Solaris, and Android. Some of the examples
+// may not compile on Windows.
+文書中の例はLinux、FreeBSD、OpenBSD、NetBSD、Mac OS X、Solaris、Androidで正しく動作するはずですが、いくつかの例についてはWindowsではコンパイルできないかもしれません。
