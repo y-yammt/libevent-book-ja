@@ -8,8 +8,7 @@ include::license.txt[]
 
 // This document will teach you how to use Libevent 2.0 (and later) to write fast
 // portable asynchronous network IO programs in C.  We assume:
-この文章では、高速で移植性のある非同期ネットワーク入出力プログラムをC言語で書くために Libevent 2.0 (および、それ以降) を使う方法について説明します。
-本書を読むにあたっては、以下のことを想定しています。
+この文章では、高速で移植性のある非同期ネットワーク入出力プログラムをC言語で書くために Libevent 2.0 (および、それ以降) を使う方法について説明します。本書を読むにあたっては、以下のことを想定しています。
 
 // * That you already know C.
 * すでにC言語を知っている。
