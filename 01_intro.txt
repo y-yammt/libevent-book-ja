@@ -338,5 +338,4 @@ include::examples_01/01_rot13_server_bufferevent.c[]
 
 // XXXX write an efficiency section here.  The benchmarks on the libevent
 // page are really out of date.
-XXXXが効率性についてのセクションをここに記載します。
-Libeventページのベンチマークは実際のところ古くなっています。
+XXXXが効率性についてのセクションをここに記載します。Libeventページのベンチマークは実際のところ古くなっています。
