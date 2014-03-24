@@ -15,7 +15,7 @@ Libeventの学習
 Libeventリファレンスマニュアル
 ------------------------------
 
-- link:Ref0_meta.html[R0: Preliminaries]
+- link:Ref0_meta.html[R0: 準備]
 - link:Ref1_libsetup.html[R1: Setting up the Libevent library]
 - link:Ref2_eventbase.html[R2: Getting an event_base]
 - link:Ref3_eventloop.html[R3: Running an event loop]
